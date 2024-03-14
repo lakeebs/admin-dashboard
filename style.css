@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --grey: #ededed;
+}
+
+html {
+  font-size: 16px;
+}
+
+html, body {
+  height: 100vh;
+}
+
+input {
+  appearance: none;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+header, .header-top, .header-bottom, .header-bottom > .buttons, main, .projects-container, .projects, nav, .announcements, .trending, footer {
+  display: grid;
+}
+
+.header-top, .header-bottom, nav > h1, nav > ul, .projects-container, article, .announcements, .announcements ul, .trending, .trending ul, footer p {
+  padding: 1rem;
+}
+
+header {
+  grid-row: 1 / 3;
+  grid-column: 2 / 3;
+
+  .header-top {
+    grid-template-columns: 4fr 1fr;
+  }
+  
+  .header-bottom {
+    grid-template-columns: 1fr 1fr;
+
+    .buttons {
+
+    }
+  }
+}
+
+nav {
+  grid-template-rows: 1fr 8fr;
+  grid-row: 1 / 4;
+  grid-column: 1 / 2;
+}
+
+main {
+  grid-template-columns: 3fr 1fr;
+
+  .projects-container {
+    grid-template-rows: 2rem 1fr;
+
+    .projects {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+
+      article {
+        background: var(--grey);
+      }
+    }
+  }
+
+  aside {
+    .announcements, .trending {
+      grid-template-rows: 2rem 1fr;
+
+      ul {
+        background: var(--grey);
+
+        li {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  grid-column: 1 / 3;
+  justify-content: center;
+}
