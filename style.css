@@ -173,6 +173,10 @@ nav {
       a:hover {
         text-decoration: underline;
       }
+
+      &.settings {
+        margin-top: 3rem;
+      }
     }
 
     li::before {
@@ -272,13 +276,19 @@ main {
           border-bottom: 1px solid var(--grey);
           margin-bottom: 1rem;
           padding-bottom: 1rem;
-        }
 
-        li:last-child {
-          border-bottom: none;
-          margin-bottom: 0;
+          &:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+          }
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  article.hidden {
+    display: none;
   }
 }
