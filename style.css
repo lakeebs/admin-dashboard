@@ -9,6 +9,7 @@
   --grey: #ededed;
   --black: #000;
   --highlight: #f33737;
+  --bold: 700;
 }
 
 ::selection {
@@ -17,7 +18,8 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
   font-size: 14px;
 }
 
@@ -95,7 +97,7 @@ header {
       justify-self: end;
 
       .user-profile {
-        font-weight: bold;
+        font-weight: var(--bold);
       }
     }
   }
@@ -117,7 +119,7 @@ header {
 
       p {
         font-size: 1.5rem;
-        font-weight: bold;
+        font-weight: var(--bold);
       }
     }
 
@@ -132,7 +134,7 @@ header {
           background: var(--highlight);
           color: #fff;
           display: inline-block;
-          font-weight: bold;
+          font-weight: var(--bold);
           padding: 0.2rem 0;
           width: 100%;
         }
@@ -167,7 +169,7 @@ nav {
       margin-bottom: 1rem;
 
       a {
-        font-weight: bold;
+        font-weight: var(--bold);
       }
 
       a:hover {
