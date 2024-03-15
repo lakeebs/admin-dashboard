@@ -10,18 +10,22 @@
   <div class="wrapper">
     <header>
       <div class="header-top">
-        <input type="search" class="search" placeholder="Search...">
+        <div class="search">
+          <img src="img/search.svg" alt="search" height="20" width="20">
+          <input type="search" placeholder="Search...">
+        </div>
         <div class="user-info">
-          <a href="#" class="notifications">Notifications</a>
+          <a href="#" class="notifications"><img src="img/notifications.svg" alt="Notifications" height="20" width="20"></a>
           <a href="#" class="user-profile">John Lee</a>
         </div>
       </div>
       <div class="header-bottom">
         <div class="welcome">
+          <img src="img/avatar.jpeg" alt="avatar" height="55" width="55">
           <p>Hello, <span class="name">John.</span></p>
         </div>
         <ul class="buttons">
-          <li><a href="#">New</a></li>
+          <li><a href="#">New +</a></li>
           <li><a href="#">Upload</a></li>
           <li><a href="#">Share</a></li>
         </ul>
@@ -30,73 +34,87 @@
     <nav>
       <h1>Dashboard</h1>
       <ul class="pages">
-        <li class="page"><a href="#">Home</a></li>
-        <li class="page"><a href="#">Profile</a></li>
-        <li class="page"><a href="#">Messages</a></li>
-        <li class="page"><a href="#">History</a></li>
-        <li class="page"><a href="#">Tasks</a></li>
-        <li class="page"><a href="#">Communities</a></li>
-        <li class="page"><a href="#">Settings</a></li>
-        <li class="page"><a href="#">Support</a></li>
-        <li class="page"><a href="#">Privacy</a></li>
+        <li class="page home"><a href="#">Home</a></li>
+        <li class="page profile"><a href="#">Profile</a></li>
+        <li class="page messages"><a href="#">Messages</a></li>
+        <li class="page history"><a href="#">History</a></li>
+        <li class="page tasks"><a href="#">Tasks</a></li>
+        <li class="page communities"><a href="#">Communities</a></li>
+        <li class="page settings"><a href="#">Settings</a></li>
+        <li class="page support"><a href="#">Support</a></li>
+        <li class="page privacy"><a href="#">Privacy</a></li>
       </ul>
+      <p class="small copyright">Made by <a href="https://github.com/lakeebs">John Lee</a></p>
     </nav>
     <main>
       <div class="projects-container">
         <h2>Projects</h2>
         <div class="projects">
           <article>
-            <h3>Super Cool Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            <div class="content">
+              <h3>App Design For X</h3>
+              <img src="" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            </div>
             <ul class="project-icons">
-              <li class="favorite"><a href="#"></a></li>
-              <li class="like"><a href="#"></a></li>
-              <li class="share"><a href="#"></a></li>
+              <li class="favorites"><a href="#"><img src="img/favorites.svg" width="18"></a></li>
+              <li class="views"><a href="#"><img src="img/views.svg" width="18"></a></li>
+              <li class="shares"><a href="#"><img src="img/shares.svg" width="18"></a></li>
             </ul>
           </article>
           <article>
-            <h3>Less Cool Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            <div class="content">
+              <h3>E-Commerce Site For X</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            </div>
             <ul class="project-icons">
-              <li class="favorite"><a href="#"></a></li>
-              <li class="like"><a href="#"></a></li>
-              <li class="share"><a href="#"></a></li>
+              <li class="favorites"><a href="#"><img src="img/favorites.svg" width="18"></a></li>
+              <li class="views"><a href="#"><img src="img/views.svg" width="18"></a></li>
+              <li class="shares"><a href="#"><img src="img/shares.svg" width="18"></a></li>
             </ul>
           </article>
           <article>
-            <h3>Impossible App</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            <div class="content">
+              <h3>Dashboard Design For X</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            </div>
             <ul class="project-icons">
-              <li class="favorite"><a href="#"></a></li>
-              <li class="like"><a href="#"></a></li>
-              <li class="share"><a href="#"></a></li>
+              <li class="favorites"><a href="#"><img src="img/favorites.svg" width="18"></a></li>
+              <li class="views"><a href="#"><img src="img/views.svg" width="18"></a></li>
+              <li class="shares"><a href="#"><img src="img/shares.svg" width="18"></a></li>
             </ul>
           </article>
           <article>
-            <h3>Easy Peasy App</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            <div class="content">
+              <h3>Branding Work For X</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            </div>
             <ul class="project-icons">
-              <li class="favorite"><a href="#"></a></li>
-              <li class="like"><a href="#"></a></li>
-              <li class="share"><a href="#"></a></li>
+              <li class="favorites"><a href="#"><img src="img/favorites.svg" width="18"></a></li>
+              <li class="views"><a href="#"><img src="img/views.svg" width="18"></a></li>
+              <li class="shares"><a href="#"><img src="img/shares.svg" width="18"></a></li>
             </ul>
           </article>
           <article>
-            <h3>Ad Blocker</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            <div class="content">
+              <h3>Some Illustrations I Did</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            </div>
             <ul class="project-icons">
-              <li class="favorite"><a href="#"></a></li>
-              <li class="like"><a href="#"></a></li>
-              <li class="share"><a href="#"></a></li>
+              <li class="favorites"><a href="#"><img src="img/favorites.svg" width="18"></a></li>
+              <li class="views"><a href="#"><img src="img/views.svg" width="18"></a></li>
+              <li class="shares"><a href="#"><img src="img/shares.svg" width="18"></a></li>
             </ul>
           </article>
           <article>
-            <h3>Money Maker</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            <div class="content">
+              <h3>Mobile Design For X</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
+            </div>
             <ul class="project-icons">
-              <li class="favorite"><a href="#"></a></li>
-              <li class="like"><a href="#"></a></li>
-              <li class="share"><a href="#"></a></li>
+              <li class="favorites"><a href="#"><img src="img/favorites.svg" width="18"></a></li>
+              <li class="views"><a href="#"><img src="img/views.svg" width="18"></a></li>
+              <li class="shares"><a href="#"><img src="img/shares.svg" width="18"></a></li>
             </ul>
           </article>
         </div>
@@ -110,7 +128,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
             </li>
             <li>
-              <h4>Community Share Day</h4>
+              <h4>Community Shares Day</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a blandit justo, ut malesuada dolor. Praesent condimentum mattis sollicitudin.</p>
             </li>
             <li>
@@ -119,33 +137,41 @@
             </li>
           </ul>
         </div>
-        <div class="trending">
-          <h2>Trending</h2>
+        <div class="comments">
+          <h2>Comments</h2>
           <ul>
             <li>
-              <h4>@tegan</h4>
-              <p>World Peace Builder</p>
+              <img src="img/user-avatar1.svg" alt="user avatar">
+              <div class="comment">
+                <h4>@tegan</h4>
+                <p>Love this one!</p>
+              </div>
             </li>
             <li>
-              <h4>@morgan</h4>
-              <p>Super Cool Project</p>
+              <img src="img/user-avatar2.svg" alt="user avatar">
+              <div class="comment">
+                <h4>@morgan</h4>
+                <p>How long did this one take?</p>
+              </div>
             </li>
             <li>
-              <h4>@kendall</h4>
-              <p>Life Changing App</p>
+              <img src="img/user-avatar3.svg" alt="user avatar">
+              <div class="comment">
+                <h4>@kendall</h4>
+                <p>Has this been released?</p>
+              </div>
             </li>
             <li>
-              <h4>@alex</h4>
-              <p>No Traffic Maker</p>
+              <img src="img/user-avatar4.svg" alt="user avatar">
+              <div class="comment">
+                <h4>@alex</h4>
+                <p>Hilarious!</p>
+              </div>
             </li>
           </ul>
         </div>
       </aside>
     </main>
-    <footer>
-      <p class="small copyright">Made by John Lee</p>
-    </footer>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
